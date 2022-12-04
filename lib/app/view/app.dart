@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_movie/counter/counter.dart';
+import 'package:my_movie/features/movie/presentation/pages/home_page.dart';
 import 'package:my_movie/l10n/l10n.dart';
 
 class App extends StatelessWidget {
@@ -16,7 +16,7 @@ class App extends StatelessWidget {
       ),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      home: const CounterPage(),
+      home: const HomePage(),
     );
   }
 }
