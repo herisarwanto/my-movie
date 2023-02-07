@@ -12,7 +12,7 @@ dependencies:
   dartz: ^0.10.1
   flutter:
     sdk: flutter
-  flutter_bloc: ^8.1.1
+  flutter_bloc: ^8.1.2
   flutter_localizations:
     sdk: flutter
   freezed: ^2.2.0
